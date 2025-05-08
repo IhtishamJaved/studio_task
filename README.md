@@ -3,11 +3,7 @@
  App features:
  User can create todo with the help of his voice. User speaks in mic and voice convert to text with the help of speech_to_text package . Then its pass to Large Language Model its decide either user want to create todo or update previous todo or delete todo.
 
-If user want to create todo, then it return title, d
-
-https://github.com/user-attachments/assets/21cdb68b-9a53-4e47-b663-63288f058ebf
-
-escription base on title if user donot speak in voice and date time.
+If user want to create todo, then it return title, description base on title if user donot speak in voice and date time.
 Then its store firebase and also add to list . 
 
 Voice Like : Create a task title ‘GYM’ at 4:30 PM on May 9th, 2025.
@@ -32,6 +28,9 @@ Converting speech to text and then pass in LLM it decide what functionality need
 
 State Management:
 GetX for state management in my Flutter project due to its simplicity, performance, and minimal boilerplate. GetX making it easy to update the UI in response to data changes without the need for complex code structures. Its built-in dependency injection and route management also streamline app architecture, helping maintain cleaner and more scalable code. Overall, GetX offers a lightweight yet powerful solution that speeds up development while maintaining code readability and efficiency.
+
+
+https://github.com/user-attachments/assets/21cdb68b-9a53-4e47-b663-63288f058ebf
 
 
 
