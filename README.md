@@ -1,16 +1,39 @@
-# studio_task
+ Studio Task
 
-A new Flutter project.
+ App features:
+ User can create todo with the help of his voice. User speaks in mic and voice convert to text with the help of speech_to_text package . Then its pass to Large Language Model its decide either user want to create todo or update previous todo or delete todo.
 
-## Getting Started
+If user want to create todo, then it return title, d
 
-This project is a starting point for a Flutter application.
+https://github.com/user-attachments/assets/21cdb68b-9a53-4e47-b663-63288f058ebf
 
-A few resources to get you started if this is your first Flutter project:
+escription base on title if user donot speak in voice and date time.
+Then its store firebase and also add to list . 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Voice Like : Create a task title ‘GYM’ at 4:30 PM on May 9th, 2025.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If user want to update todo, then it return title, and date time which he/she speaks in voice.
+
+Voice Like : Update the task title GYM to 5:50 PM on May 15th.
+
+if user want to delete, then it return title which user speaks in voice.
+
+Voice Like : Delete the task title GYM
+
+I have use Firebase as database for storing todos .
+
+
+Step Up: Flutter Version  3.29.2
+
+LLM:
+I Have use Open Router Ai model.
+Converting speech to text and then pass in LLM it decide what functionality need to perform on the base of user voice commmend . It helps to declined either user want to create,update or delete todo and its response to that.
+
+
+State Management:
+GetX for state management in my Flutter project due to its simplicity, performance, and minimal boilerplate. GetX making it easy to update the UI in response to data changes without the need for complex code structures. Its built-in dependency injection and route management also streamline app architecture, helping maintain cleaner and more scalable code. Overall, GetX offers a lightweight yet powerful solution that speeds up development while maintaining code readability and efficiency.
+
+
+
+ 
+ 
